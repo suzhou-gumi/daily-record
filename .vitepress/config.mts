@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import year_2025 from "./config/sidebar/2025";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -21,10 +22,12 @@ export default defineConfig({
           { text: "Runtime API Examples", link: "/api-examples" },
         ],
       },
+      {
+        text: "Year 2025",
+        items: year_2025,
+      },
     ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/suzhou-gumi" }],
   },
 });

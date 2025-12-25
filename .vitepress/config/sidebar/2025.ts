@@ -5,8 +5,17 @@ export default [
     text: "2025",
     items: [
       {
-        text: "December",
-        link: "/packages/2025/12/10",
+        text: "12",
+        items: [
+          {
+            text: "10",
+            link: "packages/2025/12/10",
+          },
+          {
+            text: "25",
+            link: "packages/2025/12/25",
+          },
+        ],
       },
     ],
   },

@@ -15,6 +15,10 @@ export default [
             text: "25",
             link: "packages/2025/12/25",
           },
+          {
+            text: "29",
+            link: "packages/2025/12/29",
+          },
         ],
       },
     ],
